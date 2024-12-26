@@ -4,12 +4,11 @@ SahibPy is a Python-based web scraping tool designed to extract job postings fro
 
 ## Files
 
-* `sahibpy.py`: This is the main script that provides a command-line interface for interacting with the scraper. It uses the `SahibindenScraper` class from `scraper.py` to perform the scraping and data manipulation.
+* `sahibpy.py`: This is the main script that provides a command-line interface for interacting with the scraper. It performs the scraping and data manipulation.
 * `scraper.py`: Contains the `SahibindenScraper` class, which implements the core web scraping logic. It uses `seleniumbase` to handle dynamic content and bypass Cloudflare protection.
 * `requirements.txt`: Lists the project's dependencies, including `rich`, `seleniumbase`, `beautifulsoup4`, and `dataclasses`.
 * `filtered_results.csv`: Stores the job postings after applying filters. This file is generated when the "Save to CSV" option is used after filtering.
 * `original_results.csv`: Stores the raw job postings fetched from sahibinden.com. This file is generated when the "Save to CSV" option is used.
-* `downloaded_files/`: This directory might contain files downloaded by `seleniumbase` during the scraping process.
 
 ## Dependencies
 
