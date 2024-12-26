@@ -54,7 +54,16 @@ The scraper extracts the following information for each job posting:
 
 ### Filtering
 
-The filtering functionality allows users to refine the search results by excluding listings containing certain keywords (common words like 'kurye', 'gemi', etc. are excluded by default) and including specific categories or locations.
+The filtering functionality allows users to refine the search results.
+
+**Currently Functional:**
+
+*   Filtering by keywords (common words like 'kurye', 'gemi', etc. are excluded by default).
+
+**Work in Progress:**
+
+*   Filtering by categories.
+*   Filtering by locations.
 
 ## Notes
 
