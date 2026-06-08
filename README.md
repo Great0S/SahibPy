@@ -36,6 +36,19 @@ pip install -r requirements.txt
     *   **Save to CSV**: Saves the current results (original, filtered, or both) to CSV files.
     *   **Reset Filters**: Clears any applied filters, reverting to the original search results.
     *   **Exit**: Closes the script.
+## Testing
+
+A lightweight test runner is included at `tests/run_tests.py`.
+
+Run it with:
+
+```bash
+python tests/run_tests.py
+```
+
+This validates date parsing, filtering, and URL building without requiring `pytest`.
+
+For a summary of recent changes, see `CHANGELOG.md`.
 
 ## Functionality Details
 
